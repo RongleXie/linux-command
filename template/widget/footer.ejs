@@ -2,18 +2,38 @@
 <div class="footer <%if(type=='home'){%> home <%}%>">
   <a target="_blank" href="https://github.com/jaywcjlove/linux-command/new/master/command">添加命令</a> |
   <a href="<%=relative_path%>hot.html">命令列表</a> |
-  <a href="https://github.com/jaywcjlove/oscnews">Chrome 插件</a> |
-  <a href="https://github.com/jaywcjlove/linux-command/releases">Alfred</a> |
-  <a href="https://jaywcjlove.github.io/linux-command/linux-command.docset.zip">Dash</a> |
-  <a href="https://github.com/roachsinai/krunner-linuxcommands">Krunner</a> |
-  <a href="http://jaywcjlove.gitee.io/linux-command/">开源中国Web版</a>
+  <a href="https://github.com/jaywcjlove/oscnews" target="_blank">Chrome 插件</a> |
+  <a href="https://github.com/jaywcjlove/linux-command/releases" target="_blank">Alfred</a> |
+  <a href="https://jaywcjlove.github.io/linux-command/linux-command.docset.zip" target="_blank">Dash</a> |
+  <a href="https://github.com/roachsinai/krunner-linuxcommands" target="_blank">Krunner</a> |
+  <a href="http://jaywcjlove.gitee.io/linux-command/" target="_blank">开源中国Web版</a>
   <br />
-  <a href="https://github.com/jaywcjlove/linux-command">Github</a> |
-  <a href="https://jaywcjlove.github.io/linux-command/">短地址：https://git.io/linux</a>
-  <br />
-  收藏本站请使用 Ctrl+D 或者Command+d
-  <br /> 共搜集到
-  <span id="commands_info">
-    <%=describe.command_length?describe.command_length:''%>
-  </span> 个Linux命令
+  <a href="https://jaywcjlove.github.io/#/sponsor" target="_blank">打赏捐赠</a> |
+  <a href="https://github.com/jaywcjlove/linux-command" target="_blank">Github</a> |
+  <a href="https://jaywcjlove.github.io/linux-command/" target="_blank">短地址：https://git.io/linux</a>
+  <div>
+    收藏本站请使用 Ctrl+D 或者Command+d
+    <br />
+    共搜集到
+    <span id="commands_info">
+      <%=describe.command_length?describe.command_length:''%>
+    </span> 个Linux命令，超过 <a href="<%=relative_path%>contributors.html">50+</a> 贡献者
+  </div>
+  <div>
+    <a target="_blank" href="<%=relative_path%>contributors.html#镜像网站">镜像网站</a>列表，
+    <a href="https://github.com/jaywcjlove/linux-command/issues/649" target="_blank">推荐</a>自己的镜像网站
+  </div>
+  <div class="ad_title">
+    <sup>特别感谢：</sup>
+  </div>
+  <div class="ad">
+    <a href="https://getapps.cafe/" target="_blank">
+      <img alt="getapps.cafe" width="160" src="<%=relative_path%>img/getapps.cafe.png">
+      <b>getapps.cafe，60 多款原生 Mac 应用，涵盖实用工具、办公、创意和生产力等类别，全部在本地运行，确保你的数据永远不会离开你的设备。</b>
+    </a>
+    <a href="https://enconvo.com/?via=kennyiseeyou" target="_blank">
+      <img alt="Doloffer sponsorship" width="160" src="<%=relative_path%>img/enconvo.com.png">
+      <b>Enconvo - 遍布整个 Mac 的 AI 智能体，它能看到您的屏幕，在您的应用中工作，并真正把事情做完。</b>
+    </a>
+  </div>
 </div>

@@ -1,4 +1,9 @@
 {
+  "7z": {
+    "n": "7z",
+    "p": "/7z",
+    "d": "拥有极高压缩比的开源压缩软件。"
+  },
   "ab": {
     "n": "ab",
     "p": "/ab",
@@ -13,6 +18,11 @@
     "n": "ack",
     "p": "/ack",
     "d": "比grep好用的文本搜索工具"
+  },
+  "ag": {
+    "n": "ag",
+    "p": "/ag",
+    "d": "ack 的升级版，C语言编写，更快更人性化"
   },
   "alias": {
     "n": "alias",
@@ -154,6 +164,11 @@
     "p": "/bc",
     "d": "算术操作精密运算工具"
   },
+  "beep": {
+    "n": "beep",
+    "p": "/beep",
+    "d": "用于控制 PC 扬声器发出蜂鸣声的命令行工具。"
+  },
   "bg": {
     "n": "bg",
     "p": "/bg",
@@ -174,11 +189,6 @@
     "p": "/blockdev",
     "d": "从命令行调用区块设备控制程序"
   },
-  "bmodinfo": {
-    "n": "bmodinfo",
-    "p": "/bmodinfo",
-    "d": "显示给定模块的详细信息"
-  },
   "break": {
     "n": "break",
     "p": "/break",
@@ -192,7 +202,7 @@
   "bunzip2": {
     "n": "bunzip2",
     "p": "/bunzip2",
-    "d": "创一个bz2文件压缩包"
+    "d": "可解压缩.bz2格式的压缩文件。 "
   },
   "bye": {
     "n": "bye",
@@ -202,7 +212,7 @@
   "bzcat": {
     "n": "bzcat",
     "p": "/bzcat",
-    "d": "解压缩指定的.bz2文件"
+    "d": "不解压，直接查看指定的.bz2文件"
   },
   "bzcmp": {
     "n": "bzcmp",
@@ -354,6 +364,11 @@
     "p": "/colrm",
     "d": "删除文件中的指定列"
   },
+  "column": {
+    "n": "column",
+    "p": "/column",
+    "d": "按列格式化输出文件"
+  },
   "comm": {
     "n": "comm",
     "p": "/comm",
@@ -394,6 +409,11 @@
     "p": "/cpio",
     "d": "用来建立、还原备份档的工具程序"
   },
+  "createrepo": {
+    "n": "createrepo",
+    "p": "/createrepo",
+    "d": "创建YUM仓库"
+  },
   "crontab": {
     "n": "crontab",
     "p": "/crontab",
@@ -433,6 +453,11 @@
     "n": "date",
     "p": "/date",
     "d": "显示或设置系统时间与日期"
+  },
+  "dc": {
+    "n": "dc",
+    "p": "/dc",
+    "d": "任意精度计算器"
   },
   "dd": {
     "n": "dd",
@@ -528,6 +553,11 @@
     "n": "dnsdomainname",
     "p": "/dnsdomainname",
     "d": "定义DNS系统中FQDN名称的域名"
+  },
+  "docker": {
+    "n": "docker",
+    "p": "/docker",
+    "d": "容器化技术，可以将应用程序及其依赖项打包到一个可移植的容器中，使其可以在不同的环境中运行"
   },
   "domainname": {
     "n": "domainname",
@@ -729,6 +759,11 @@
     "p": "/fgrep",
     "d": "为文件搜索文字字符串"
   },
+  "figlet": {
+    "n": "figlet",
+    "p": "/figlet",
+    "d": "字符串转为 “字画符”。"
+  },
   "file": {
     "n": "file",
     "p": "/file",
@@ -782,7 +817,7 @@
   "fsck": {
     "n": "fsck",
     "p": "/fsck",
-    "d": "检查并且试图修复文件系统中的错误"
+    "d": "fsck（英文全拼：file system check）命令检查并且试图修复文件系统中的错误"
   },
   "ftp": {
     "n": "ftp",
@@ -834,10 +869,25 @@
     "p": "/get_module",
     "d": "获取Linux内核模块的详细信息"
   },
+  "getcap": {
+    "n": "getcap",
+    "p": "/getcap",
+    "d": "显示文件的能力（capabilities）"
+  },
   "getenforce": {
     "n": "getenforce",
     "p": "/getenforce",
     "d": "显示当前SELinux的应用模式，是强制、执行还是停用"
+  },
+  "getent": {
+    "n": "getent",
+    "p": "/getent",
+    "d": "查询 DNS 名称服务器中的命名空间"
+  },
+  "getfacl": {
+    "n": "getfacl",
+    "p": "/getfacl",
+    "d": "获取文件访问控制列表(access control lists)"
   },
   "getsebool": {
     "n": "getsebool",
@@ -853,6 +903,11 @@
     "n": "gpasswd",
     "p": "/gpasswd",
     "d": "Linux下工作组文件的管理工具"
+  },
+  "gpg": {
+    "n": "gpg",
+    "p": "/gpg",
+    "d": "可用于签名、检查、加密或解密的工具"
   },
   "gpm": {
     "n": "gpm",
@@ -874,10 +929,15 @@
     "p": "/groupdel",
     "d": "用于删除指定的工作组"
   },
+  "groupmems": {
+    "n": "groupmems",
+    "p": "/groupmems",
+    "d": "管理用户主要组的成员"
+  },
   "groupmod": {
     "n": "groupmod",
     "p": "/groupmod",
-    "d": "更改群组识别码或名称"
+    "d": "修改系统上的组定义"
   },
   "groups": {
     "n": "groups",
@@ -904,6 +964,16 @@
     "p": "/grub",
     "d": "多重引导程序grub的命令行shell工具"
   },
+  "grub2-mkconfig": {
+    "n": "grub2-mkconfig",
+    "p": "/grub2-mkconfig",
+    "d": "生成 grub.cfg 配置文件。"
+  },
+  "grub2-set-default": {
+    "n": "grub2-set-default",
+    "p": "/grub2-set-default",
+    "d": "设置系统默认的启动内核"
+  },
   "gunzip": {
     "n": "gunzip",
     "p": "/gunzip",
@@ -923,6 +993,11 @@
     "n": "halt",
     "p": "/halt",
     "d": "关闭正在运行的Linux操作系统"
+  },
+  "hcitool": {
+    "n": "hcitool",
+    "p": "/hcitool",
+    "d": "hcitool是一个Linux命令行工具，用于管理和调试蓝牙设备。它可以用于扫描周围的蓝牙设备、连接到蓝牙设备发送命令和数据包等。"
   },
   "hdparm": {
     "n": "hdparm",
@@ -1139,6 +1214,11 @@
     "p": "/iptstate",
     "d": "显示iptables的工作状态"
   },
+  "iscsiadm": {
+    "n": "iscsiadm",
+    "p": "/iscsiadm",
+    "d": "管理iSCSI连接"
+  },
   "ispell": {
     "n": "ispell",
     "p": "/ispell",
@@ -1163,6 +1243,11 @@
     "n": "join",
     "p": "/join",
     "d": "两个文件中指定栏位内容相同的行连接起来"
+  },
+  "journalctl": {
+    "n": "journalctl",
+    "p": "/journalctl",
+    "d": "检索 systemd 日志，只要使用 systemd 的 Linux 发行版（如 Fedora、Ubuntu Modern、Debian、SUSE、Arch），几乎都会配备 journalctl。"
   },
   "jq": {
     "n": "jq",
@@ -1193,6 +1278,11 @@
     "n": "killall",
     "p": "/killall",
     "d": "使用进程的名称来杀死一组进程"
+  },
+  "l2ping": {
+    "n": "l2ping",
+    "p": "/l2ping",
+    "d": "收发 L2CAP 回显请求，用于检查与目标蓝牙设备的连通性。"
   },
   "last": {
     "n": "last",
@@ -1494,6 +1584,11 @@
     "p": "/mkbootdisk",
     "d": "可建立目前系统的启动盘"
   },
+  "mkcert": {
+    "n": "mkcert",
+    "p": "/mkcert",
+    "d": "用来生成自签证书的工具"
+  },
   "mkdir": {
     "n": "mkdir",
     "p": "/mkdir",
@@ -1534,6 +1629,16 @@
     "p": "/mktemp",
     "d": "创建临时文件供shell脚本使用"
   },
+  "modetest": {
+    "n": "modetest",
+    "p": "/modetest",
+    "d": "DRM/KMS驱动程序libdrm中的模式测试工具"
+  },
+  "modinfo": {
+    "n": "modinfo",
+    "p": "/modinfo",
+    "d": "显示给定模块的详细信息"
+  },
   "modprobe": {
     "n": "modprobe",
     "p": "/modprobe",
@@ -1558,6 +1663,11 @@
     "n": "mtools",
     "p": "/mtools",
     "d": "显示mtools支持的指令"
+  },
+  "mtr": {
+    "n": "mtr",
+    "p": "/mtr",
+    "d": "`mtr` 结合了 `traceroute` 和 `ping` 程序的功能，是一款简单的网络诊断工具"
   },
   "mv": {
     "n": "mv",
@@ -1592,7 +1702,7 @@
   "named-checkzone": {
     "n": "named-checkzone",
     "p": "/named-checkzone",
-    "d": "使用named-checkzone命令可以进行区域文件有效性检查和转换，必须指定区域名称和区域文件名称"
+    "d": "使用 named-checkzone 可验证并转换区域文件，需指定区域名和文件名。"
   },
   "nano": {
     "n": "nano",
@@ -1602,12 +1712,22 @@
   "nc": {
     "n": "nc",
     "p": "/nc",
-    "d": "用于设置路由器，是网络工具中的瑞士军刀。"
+    "d": "nc是网络工具中的瑞士军刀"
+  },
+  "ncdu": {
+    "n": "ncdu",
+    "p": "/ncdu",
+    "d": "磁盘使用情况的交互式查看工具，可视为 du 的增强版本"
   },
   "ncftp": {
     "n": "ncftp",
     "p": "/ncftp",
     "d": "是增强的的FTP工具"
+  },
+  "neofetch": {
+    "n": "neofetch",
+    "p": "/neofetch",
+    "d": "显示带有发行徽标的系统信息的工具"
   },
   "nethogs": {
     "n": "nethogs",
@@ -1637,7 +1757,7 @@
   "nice": {
     "n": "nice",
     "p": "/nice",
-    "d": "改变程序执行的优先权等级"
+    "d": "调整程序执行的优先权等级"
   },
   "nisdomainname": {
     "n": "nisdomainname",
@@ -1664,6 +1784,11 @@
     "p": "/nmcli",
     "d": "地址配置工具"
   },
+  "nmtui": {
+    "n": "nmtui",
+    "p": "/nmtui",
+    "d": "基于文本的用户界面（TUI），用于控制和配置 NetworkManager。"
+  },
   "nohup": {
     "n": "nohup",
     "p": "/nohup",
@@ -1683,6 +1808,11 @@
     "n": "nslookup",
     "p": "/nslookup",
     "d": "查询域名DNS信息的工具"
+  },
+  "nstat": {
+    "n": "nstat",
+    "p": "/nstat",
+    "d": "nstat 是一个简单的监视内核的 SNMP 计数器和网络接口状态的实用工具。"
   },
   "ntpdate": {
     "n": "ntpdate",
@@ -1708,6 +1838,11 @@
     "n": "openssl",
     "p": "/openssl",
     "d": "强大的安全套接字层密码库"
+  },
+  "pacman": {
+    "n": "pacman",
+    "p": "/pacman",
+    "d": "Arch Linux 系统及其衍生系统中默认使用的包管理器"
   },
   "parted": {
     "n": "parted",
@@ -1769,6 +1904,11 @@
     "p": "/pidof",
     "d": "查找指定名称的进程的进程号ID号"
   },
+  "pidstat": {
+    "n": "pidstat",
+    "p": "/pidstat",
+    "d": "监控进程的系统资源占用情况"
+  },
   "pigz": {
     "n": "pigz",
     "p": "/pigz",
@@ -1777,7 +1917,22 @@
   "ping": {
     "n": "ping",
     "p": "/ping",
-    "d": "测试主机之间网络的连通性"
+    "d": "测试主机之间网络的连通性(ipv4)"
+  },
+  "ping6": {
+    "n": "ping6",
+    "p": "/ping6",
+    "d": "测试主机之间网络的连通性(ipv6)"
+  },
+  "pip": {
+    "n": "pip",
+    "p": "/pip",
+    "d": "Python 编程语言中的包管理器，用于安装和管理第三方 Python 模块"
+  },
+  "pkexec": {
+    "n": "pkexec",
+    "p": "/pkexec",
+    "d": "以其他用户身份执行命令"
   },
   "pkill": {
     "n": "pkill",
@@ -1818,6 +1973,11 @@
     "n": "protoize",
     "p": "/protoize",
     "d": "GNU-C代码转换为ANSI-C代码"
+  },
+  "prtstat": {
+    "n": "prtstat",
+    "p": "/prtstat",
+    "d": "显示进程信息"
   },
   "ps": {
     "n": "ps",
@@ -1899,6 +2059,11 @@
     "p": "/pwd",
     "d": "显示当前工作目录的绝对路径。"
   },
+  "pwdx": {
+    "n": "pwdx",
+    "p": "/pwdx",
+    "d": "用于显示指定进程的当前工作目录"
+  },
   "pwunconv": {
     "n": "pwunconv",
     "p": "/pwunconv",
@@ -1949,6 +2114,11 @@
     "p": "/readonly",
     "d": "标记shell变量或函数为只读"
   },
+  "realpath": {
+    "n": "realpath",
+    "p": "/realpath",
+    "d": "解析并规范化文件路径，返回绝对路径。"
+  },
   "reboot": {
     "n": "reboot",
     "p": "/reboot",
@@ -1968,6 +2138,11 @@
     "n": "renice",
     "p": "/renice",
     "d": "修改正在运行的进程的调度优先级"
+  },
+  "reposync": {
+    "n": "reposync",
+    "p": "/reposync",
+    "d": "同步yum存储库到本地目录"
   },
   "repquota": {
     "n": "repquota",
@@ -2179,6 +2354,11 @@
     "p": "/sh",
     "d": "shell命令解释器"
   },
+  "sha256sum": {
+    "n": "sha256sum",
+    "p": "/sha256sum",
+    "d": "用于计算文件的 SHA-256 哈希值"
+  },
   "shift": {
     "n": "shift",
     "p": "/shift",
@@ -2224,6 +2404,11 @@
     "p": "/slocate",
     "d": "命令查找文件或目录"
   },
+  "smartmontools": {
+    "n": "smartmontools",
+    "p": "/smartmontools",
+    "d": "Smartmontools 是一种硬盘检测工具，通过控制和管理硬盘的SMART（Self Monitoring Analysis and Reporting Technology，自动检测分析及报告技术）技术来实现的"
+  },
   "smbclient": {
     "n": "smbclient",
     "p": "/smbclient",
@@ -2238,6 +2423,11 @@
     "n": "sort",
     "p": "/sort",
     "d": "对文本文件中所有行进行排序。"
+  },
+  "sosreport": {
+    "n": "sosreport",
+    "p": "/sosreport",
+    "d": "收集系统配置和诊断信息"
   },
   "source": {
     "n": "source",
@@ -2308,6 +2498,11 @@
     "n": "sshd",
     "p": "/sshd",
     "d": "openssh软件套件中的服务器守护进程"
+  },
+  "sshpass": {
+    "n": "sshpass",
+    "p": "/sshpass",
+    "d": "免交互 SSH 登录工具。"
   },
   "startx": {
     "n": "startx",
@@ -2427,16 +2622,16 @@
   "tcpreplay": {
     "n": "tcpreplay",
     "p": "/tcpreplay",
-    "d": "将PCAP包重新发送，用于性能或者功能测试"
+    "d": "将保存在 PCAP 文件包重新发送，用于性能或者功能测试"
   },
   "tee": {
     "n": "tee",
     "p": "/tee",
     "d": "从标准输入读取数据并重定向到标准输出和文件。"
   },
-  "telint": {
-    "n": "telint",
-    "p": "/telint",
+  "telinit": {
+    "n": "telinit",
+    "p": "/telinit",
     "d": "切换当前正在运行系统的运行等级"
   },
   "telnet": {
@@ -2463,6 +2658,11 @@
     "n": "time",
     "p": "/time",
     "d": "统计给定命令所花费的总时间"
+  },
+  "timedatectl": {
+    "n": "timedatectl",
+    "p": "/timedatectl",
+    "d": "用于在 Linux 中设置或查询系统时间、日期和时区等配置。"
   },
   "times": {
     "n": "times",
@@ -2533,6 +2733,11 @@
     "n": "type",
     "p": "/type",
     "d": "显示指定命令的类型。"
+  },
+  "ufw": {
+    "n": "ufw",
+    "p": "/ufw",
+    "d": "  ubuntu防火墙管理工具"
   },
   "ulimit": {
     "n": "ulimit",
@@ -2818,6 +3023,11 @@
     "n": "xlsfonts",
     "p": "/xlsfonts",
     "d": "列出X Server使用的字体"
+  },
+  "xrandr": {
+    "n": "xrandr",
+    "p": "/xrandr",
+    "d": "X 窗口系统配置管理工具"
   },
   "xset": {
     "n": "xset",

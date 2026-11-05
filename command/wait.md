@@ -21,15 +21,27 @@ wait(参数)
 
 使用命令wait等待作业号为1的作业完成后再返回，输入如下命令：
 
-```shell
-wait %1       #等待作业号为3的作业完成 
-```
-
-执行上面的指令后，将输出指定作业号的指令，如下所示：
+运行一个sleep进程
 
 ```shell
-find / -name password
+sleep 10s &
+[1] 27156
 ```
 
+指定作业号
 
+```shell
+wait %1       #等待作业号为1的作业完成 
+[1]+  Done                    sleep 10s
+```
 
+指定进程号
+
+```shell
+wait 27156
+[1]+  Done                    sleep 10s
+```
+
+输出当前存在作业号的指令，如下所示：
+
+[jobs](./jobs.md)
